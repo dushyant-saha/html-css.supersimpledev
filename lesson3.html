@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Three</title>
+    <style>
+        *{
+            background-color: black;
+            color: orange;
+            /* text-align: center; */
+        }
+
+        .style-one{
+            background-color: whitesmoke;
+            height:auto;
+            width: auto;
+        }
+
+        button:active{
+            opacity: .8;
+        }
+
+        .uber{
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 50px;
+            border-radius:0%;
+            margin: 2px;
+            border-color: beige;
+            transition: opacity .18s;
+        }
+        .uber:hover{
+            opacity:0.9;
+        }
+        
+        .amazon{
+            background-color: rgb(255, 216, 20);
+            color: black;
+            height: 35px;
+            width: 150px;
+            border-radius: 17px;
+            margin: 3px;
+            border: none;
+            transition: .18s;
+        }
+        .amazon:hover{
+            background-color: darkgoldenrod;
+        }
+
+        .amazon-buy{
+            background-color: rgb(255, 164, 28);
+            color: black;
+            height: 35px;
+            width: 150px;
+            border-radius: 17px;
+            margin: 3px;
+            border: none;
+            transition: .18s;
+        }
+        
+        .amazon-buy:hover{
+            background-color: darkgoldenrod;
+        }
+
+        .github{
+            background-color: rgb(46, 164, 79);
+            height: 50px;
+            width: 150px;
+            color: white;
+            border-radius: 7px;
+            font-weight: bold;
+            font-size: 20px;
+            border: none;
+            transition:opacity .18s;
+        }
+        .github:hover{
+            background-color:rgb(30, 107, 52);
+        }
+
+        .bootstrap{
+            background-color: rgb(121, 82, 179);
+            height: 50px;
+            width: 150px;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 15px;
+            border: none;
+        }
+        .bootstrap:hover{
+            background-color:rgb(91, 55, 146);
+        }
+
+        .bootstrap-download{
+            background-color: whitesmoke;
+            height: 50px;
+            width: 150px;
+            color: rgb(108,117,125);
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 15px;
+            border: rgb(108,117,125) 2px solid;
+            transition: color .18s, background-color .18s;
+        }
+        .bootstrap-download:hover{
+            color:rgb(255,255,255);
+            background-color: rgb(108,117,125);
+        }
+
+        .linked-in{
+            font-size: 15px;
+            font-weight: bold;
+            background-color: rgb(10, 102, 194);
+            color: white;
+            height: 50px;
+            width: 250px;
+            border-radius: 25px;
+            margin: 3px;
+            border: none;
+        }
+        .linked-in:hover{
+            background-color: rgb(7, 82, 156);
+        }
+
+        .linked-in-save{
+            font-size: 15px;
+            font-weight: 900;
+            background-color: whitesmoke;
+            color: rgb(10, 102, 194);
+            height: 50px;
+            width: 100px;
+            border-radius: 25px;
+            border: solid 2px rgb(10, 102, 194);
+            margin: 3px;
+        }
+        .linked-in-save:hover{
+            color:rgb(7, 82, 156);
+            border: solid 2px rgb(7, 82, 156);
+        }
+
+        .amazon-listing{
+            background-color: white;
+        }
+
+        .amazon-link{
+            color:rgb(0, 113, 133);
+            background-color: white;
+            margin: 5px;
+        }
+        .amazon-link:hover{
+            color:rgb(255,0,255);
+        }
+
+        .amazon-regular{
+            color:black;
+            background-color: white;
+        }
+        .price{
+            color:green;
+            font-weight: bold;
+            margin: 5px;
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="style-one">
+    
+        <!-- Question 3a -->
+        <button class="uber"> Request Now </button>
+        
+        <br>
+        <br>
+    
+        <!-- Question 3b -->
+        <button class="amazon"> Add to Cart </button>
+            
+        <br>
+        <br>
+    
+        <!-- Question 3c -->
+        <button class="github">Sign up</button>
+    
+        <br>
+        <br>
+        
+        <!-- Question 3d -->
+        <button class="bootstrap">Get Started</button>
+        <button class="bootstrap-download">Download</button>
+        
+        <br>
+        <br>
+        
+        <!-- Question 3e -->
+        <button class="linked-in">Apply on company website</button>
+        <button class="linked-in-save">Save</button>
+        
+        <br>
+        <br>
+        
+        <!-- Question 3f -->
+        <div class="amazon-listing">
+            <a href="https://www.amazon.in/dp/B09GW8CXM1/ref=s9_acsd_al_bw_c2_x_5_t?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=B17DF462XSPAPK8CWYYK&pf_rd_t=101&pf_rd_p=3fd1ed64-2931-43b2-8188-2af88056511e&pf_rd_i=58866208031&th=1" target="_blank" class="amazon-link">Back to Amazon</a>
+            <h3 class="amazon-regular">Nike Black Running Shoes</h3>
+            <p class="price">$39 - in stock.</p>
+            <p class="amazon-regular">Free delivery tomorrow.</p>
+            <button class="amazon">Add to Cart</button>
+            <button class="amazon-buy">Buy now</button>
+        </div>
+
+        <br>
+        <br>
+    
+    </div>
+
+</body>
+</html>
