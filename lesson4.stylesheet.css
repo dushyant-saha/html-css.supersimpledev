@@ -1,0 +1,251 @@
+body{
+    background-color: black;
+    color: orange;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.style-one{
+    background-color: white;
+    width: max-content;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.centering{
+    width: max-content;   
+    margin: 0px auto;
+    height: 100px;
+    /* border: black solid 5px; */
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+button:active{
+    opacity: .8;
+}
+
+.uber{
+    background-color: black;
+    color: white;
+    /* width: 150px;
+    height: 50px; */
+    border-radius:0%;
+    padding: 17px 35px;
+    margin: 2px ;
+    border: none;
+    text-align: center;
+    transition: opacity .18s, box-shadow .18s;
+}
+.uber:hover{
+    opacity:0.96;
+    box-shadow: 0px 7px 8px rgba(0,0,0, 0.2);
+}
+
+.amazon{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    /* height: 35px;
+    width: 150px; */
+    padding: 10px 40px;
+    border-radius: 17px;
+    margin: 3px;
+    border: none;
+    transition: .18s;
+}
+.amazon:hover{
+    background-color: darkgoldenrod;
+}
+
+.amazon-buy{
+    background-color: rgb(255, 164, 28);
+    color: black;
+    /* height: 35px;
+    width: 150px; */
+    padding: 10px 50px;
+    border-radius: 17px;
+    margin: 3px;
+    border: none;
+    transition: .18s;
+}
+
+.amazon-buy:hover{
+    background-color: darkgoldenrod;
+}
+
+.github{
+    background-color: rgb(46, 164, 79);
+    /* height: 50px;
+    width: 150px; */
+    padding:13px 38px;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    transition:opacity .18s;
+}
+.github:hover{
+    background-color:rgb(30, 107, 52);
+}
+
+.bootstrap{
+    background-color: rgb(121, 82, 179);
+    /* height: 50px;
+    width: 150px; */
+    padding: 17px 35px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+.bootstrap:hover{
+    background-color:rgb(91, 55, 146);
+}
+
+.bootstrap-download{
+    background-color: white;
+    /* height: 50px;
+    width: 150px; */
+    padding: 15px 37px;
+    color: rgb(108,117,125);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    border: rgb(108,117,125) 2px solid;
+    transition: color .18s, background-color .18s;
+}
+.bootstrap-download:hover{
+    color:rgb(255,255,255);
+    background-color: rgb(108,117,125);
+}
+
+.linked-in{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    /* height: 50px;
+    width: 250px; */
+    padding: 17px 29px;
+    border-radius: 25px;
+    margin: 3px;
+    border: none;
+}
+.linked-in:hover{
+    background-color: rgb(7, 82, 156);
+}
+
+.linked-in-save{
+    font-size: 15px;
+    font-weight: 900;
+    background-color: white;
+    color: rgb(10, 102, 194);
+    /* height: 50px;
+    width: 100px; */
+    padding: 12px 28px;
+    border-radius: 25px;
+    border: solid 2px rgb(10, 102, 194);
+    margin: 3px;
+}
+.linked-in-save:hover{
+    color:rgb(7, 82, 156);
+    border: solid 2px rgb(7, 82, 156);
+}
+
+.youtube{
+    color: white;
+    background-color: red;
+    font-size: 16px;
+    font-weight: bold;
+    border:none;
+    padding: 13px 25px;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: box-shadow .18s, opacity .18s;
+}
+.youtube:hover{
+    opacity: .85;
+    box-shadow: 0px 7px 10px rgba(0,0,0, 0.15);
+}
+
+.join-button{
+    background-color: white;
+    color:rgb(66, 136, 206);
+    border: rgb(66, 136, 206) solid 2px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 11px 20px;
+    margin: 0 10px;
+    transition: box-shadow .18s, background-color .18s, color .18s;
+}
+.join-button:hover{
+    background-color: rgb(66, 136, 206);
+    color: white;
+    box-shadow: 0px 7px 10px rgba(0,0,0, 0.2);
+}
+.twitter{
+    margin: 0px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color :white;
+    background-color:  rgb(66, 136, 206);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 22px;
+    letter-spacing: 1.5px;
+    transition: box-shadow .18s, opacity .18s;
+}
+.twitter:hover{
+    opacity: .96;
+    box-shadow: 0px 7px 6px rgba(0,0,0, 0.15);
+}
+
+.pagination{
+    padding : 10px 10px;
+}
+
+.stretch{
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px;
+    transition: padding .18s;
+}
+.stretch:hover{
+    padding: 20px 40px;
+    
+}
+
+.d3click{
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+    transition: box-shadow .0s;
+}
+.d3click:active{
+    box-shadow: 5px 7px 10px rgba(0,0,0, 0);
+}
+
+.widen{
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 0 20px 0 20px;
+    transition: padding .2s, margin .2s;
+}
+.widen:hover{
+    padding: 10px 25px;
+    margin: 0 10px 0 10px;
+}
