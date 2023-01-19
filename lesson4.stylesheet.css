@@ -58,7 +58,6 @@ button:active{
 .amazon:hover{
     background-color: darkgoldenrod;
 }
-
 .amazon-buy{
     background-color: rgb(255, 164, 28);
     color: black;
@@ -70,7 +69,6 @@ button:active{
     border: none;
     transition: .18s;
 }
-
 .amazon-buy:hover{
     background-color: darkgoldenrod;
 }
@@ -105,7 +103,6 @@ button:active{
 .bootstrap:hover{
     background-color:rgb(91, 55, 146);
 }
-
 .bootstrap-download{
     background-color: white;
     /* height: 50px;
@@ -138,7 +135,6 @@ button:active{
 .linked-in:hover{
     background-color: rgb(7, 82, 156);
 }
-
 .linked-in-save{
     font-size: 15px;
     font-weight: 900;
@@ -187,6 +183,7 @@ button:active{
     color: white;
     box-shadow: 0px 7px 10px rgba(0,0,0, 0.2);
 }
+
 .twitter{
     margin: 0px 10px;
     font-size: 16px;
