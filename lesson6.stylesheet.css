@@ -1,0 +1,195 @@
+/* lesson four stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+    background-color: black;
+    color: white;
+    /* box-sizing: border-box; */
+    margin: 0;
+}
+
+.style-one{
+    background-color: white;
+    color: black;
+    width: max-content;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.style-two{
+    width: max-content;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.centering{
+    width: max-content;   
+    margin: 0px auto;
+    height: 100px;
+    /* border: black solid 5px; */
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.Tahoma-font{
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.arial-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.sales{
+    font-size: 16px;
+    color: brown;
+    font-style: italic;
+}
+
+.course-title{
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0px 10px;
+    margin-bottom: 5px;
+}
+.target-audience{
+    font-size :16px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    color: gray;
+    margin: 0px 10px;
+    margin-bottom: 8px;
+}
+.course-desc{
+    font-size: 14px;
+    font-family: Verdana;
+    width: 250px;   
+    margin: 18px 10px;
+}
+.apply-button{
+    margin: 10px 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.style-three{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;   
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.link{
+    color: rgb(26, 81, 165);
+}
+
+.attraction{
+    color : orange;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+.product{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+.tagline{
+    margin: 0 auto;   
+    font-size: 40px;
+}
+.macbook-price{
+    display: block;
+    font-size: 14px;
+    margin: 10px auto;
+    font-weight: 690;
+    color: rgb(96,96,96);
+}
+.buy-button{
+    background-color: rgb(45, 86, 197);
+    border: none;
+    color:white;
+    padding: 8px 15px;
+    border-radius: 15px;
+}
+
+.stock-price{
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 500;
+    margin:  0 0 8px 10px;
+
+}
+.stock-details{
+    color: rgb(96,96,96);
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 500;
+    margin:  0 0;
+    padding:0;
+}
+.stock-status{
+    color: green;
+    font-size: 20px;
+    font-family: Arial;
+    margin:  0 10px 8px;
+}
+.dip{
+    color: red;
+    font-size: 20px;
+    font-family: Arial;
+    /* margin:  0 10px; */
+}
+p.stock-details{
+    margin:0  10px;
+}
+
+p.account, p.timing, p.tweet{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+p.account,p.tweet{
+    line-height: 23px;
+}
+p.account{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.timing{
+    color: rgb(96,96,96);
+    font-weight: lighter;
+}
+.mention{
+    color: rgb(4, 159, 211);
+}
+.tweet{
+    margin-top: 0;
+}
+
+h1.tesla{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    margin-bottom: 0px;
+}
+p.tesla{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 14px;
+}
+span.tesla{
+    text-decoration:underline solid;
+}
