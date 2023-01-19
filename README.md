@@ -5,3 +5,4 @@ personal practice lessons on html and css taken from youtube channel SuperSimple
 - Succcessfully Completed Lesson 2
 - Succcessfully Completed Lesson 3
 - Succcessfully Completed Lesson 4
+- Succcessfully Completed Lesson 5
