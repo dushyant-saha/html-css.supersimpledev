@@ -1,4 +1,4 @@
-# supersimpledev
+# practice.supersimpledev
 personal practice lessons on html and css taken from youtube channel SuperSimpleDev
 
 - Succcessfully Completed Lesson 1
