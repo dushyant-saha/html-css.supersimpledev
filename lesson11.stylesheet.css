@@ -1,0 +1,120 @@
+/* lesson four stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+    background-color: black;
+    color: white;
+    /* box-sizing: border-box; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.style-one{
+    background-color: white;
+    color: black;
+    width: max-content;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.style-two{
+    width: max-content;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.centering{
+    height:max-content;
+    width: max-content;   
+    margin: 0px auto;
+    background-color: white;
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    column-gap: 20px;
+}
+
+.suggestions{
+    width: 180px;
+    height: 280px;
+    /* border: 2px solid red; */
+    /* margin: 20px 20px; */
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgb(0,0,0);
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    position:relative;
+}
+.suggestions img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: top;
+}
+.name{
+    font-size: 15px;
+    margin: 8px 7px 4px;
+}
+.friends{
+    width: 150px;
+    color:rgb(160,159,160);   
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0px 7px ;
+}
+.friends img{
+    height: 25px;
+    width: 25px;
+    border-radius: 13px;
+    vertical-align: middle;
+}
+.request{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 7px;
+    background-color:  rgb(45,100,188);
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.practice-grid{
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin: 10px;
+    color: black;
+}
+.practice-grid-two{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin: 10px;
+    color: black;
+}
+.practice-grid-three{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    margin: 10px;
+    column-gap: 20px;   
+    row-gap: 10px;   
+    color: black;
+}
+
+.one{
+    background-color: lightgreen;
+}
+.two{
+    background-color: lightpink;
+}
+.three{
+    background-color: lightskyblue;
+}
+.four{
+    background-color: orange;
+}
