@@ -1,0 +1,177 @@
+/* lesson four stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+    /* background-color: black; */
+    /* color: white; */
+    margin: 0;
+    font-family: sans-serif, Helvetica, sans-serif;
+    height: 3000px;
+    padding:0 100px 0 100px;
+}
+
+.sample-one{
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    z-index: 1;
+}
+
+.sidebar{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: green;
+    width: 100px;
+    height:100vh;
+}
+
+.modalbase{
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    width:390px ;
+    /* height: 150px; */
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.modal h1{
+    margin-top:0 ;
+}
+.modal button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius:5px;
+    border: solid 1px rgba(0,0,0,.5);
+}
+
+.f-request{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0px 1px 2px black;
+    padding:5px 100px;
+    /* border: 1px solid red; */
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile p{
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.profile img{
+    height:40px;
+    width: 40px;
+    border-radius: 20px;
+    display: block;
+}
+.response{
+    /* width: max-content; */
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    /* padding-right: ; */
+}
+.send{
+    display: block;
+    background-color: rgb(56,114,220);
+    border: none;
+    color: white;
+    font-size: 13px;
+    /* padding: 10px 10px; */
+    width:90px;
+    height:30px;
+    border-radius: 6px;
+    letter-spacing: .5px;
+}
+.message{
+    display: block;
+    background-color: rgb(230,230,230);
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    width:90px;
+    height:30px;
+    border-radius: 6px;
+    letter-spacing: .5px;
+}
+
+.discord{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.profile-discord{
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(32,34,37);
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.profile-discord img{
+    display: block;
+    height: 60px;
+    width: 60px;
+    border: solid 1px red;
+    border-radius: 35px;
+    object-fit: cover;
+    object-position: top;
+    margin: 5px 0px;
+    box-sizing: content-box;
+}
+.channel-discord{
+    width: 235px;
+    background-color: rgb(49,49,49);
+    height: 100vh;
+    padding: 20px 20px 0;
+    flex-flow: column;
+
+}
+.subheader{
+    font-size: 16px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px red; */
+    align-items: center;
+}
+.subheader p{
+    margin: 5px;
+}
+.add{
+    font-size: 20px;
+}
+.subchannel{
+    color: rgb(146,146,146);
+    font-size: 16px;
+}
