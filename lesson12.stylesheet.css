@@ -1,0 +1,225 @@
+/* lesson four stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+    background-color: black;
+    color: white;
+    /* box-sizing: border-box; */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.style-one{
+    background-color: white;
+    color: black;
+    width: max-content;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.style-two{
+    width: max-content;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.centering{
+    height:max-content;
+    width: max-content;   
+    margin: 0px auto;
+    background-color: white;
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    column-gap: 20px;
+}
+
+.practice-grid{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    column-gap:20px;
+}
+.practice-grid-two{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    /* column-gap:20px; */
+    justify-content: space-between;
+}
+.practice-grid-three{
+    display: flex;
+    height: 50px;
+    border: solid 5px gray;
+    flex-flow: row;
+    padding: 10px;
+    /* column-gap:20px; */
+    justify-content: space-between;
+}
+
+.one{
+    flex:0 0 200px;
+    background-color: lightgreen;
+}
+.two{
+    flex:0 0  75px;
+    background-color: lightpink;
+}
+
+.one-a{
+    flex:0 0 50px;
+    background-color: lightgreen;
+}
+.two-a{
+    flex:1;
+    background-color: lightpink;
+}
+.three-a{
+    flex:0 0 75px;
+    background-color: lightgreen;
+}
+
+.one-b{
+    background-color: lightgreen;
+}
+.two-b{
+    background-color: lightpink;
+}
+.three-b{
+    background-color: lightgreen;
+}
+.four-b{
+    background-color: lightpink;
+}
+
+.container{
+    border: 2px solid gray;
+    padding :10px 20px;
+    border-radius: 10px;
+    width: max-content;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+}
+.design-one{
+    display: flex;
+    /* border: solid 1px blue; */
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+.one-c {
+    font-size: 18px;
+    font-family: sans-serif;
+    /* border: solid 1px red; */
+}
+/* .notification{
+    border: solid 1px green;
+} */
+.notification button{
+    display: block;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: rgb(65,108,236);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 3px 15px;
+}
+
+.container-a{
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    padding: 10px;
+}
+.friend-listing{
+    display: flex;
+    flex-flow: row;
+    width: max-content;
+    margin: 0 auto;
+    align-items: center;
+    /* padding: 10px; */
+    column-gap: 20px;
+}
+.picture{
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    /* padding:10px */
+}
+.text{
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    margin:  0;
+}
+.desc{
+    margin: 5px 0;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.tag{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin:  0;
+}
+.follow{
+    display: block;
+    padding:10px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(65,108,236);
+    border-radius: 8px;
+}
+
+.navbar{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    background-color: rgb(114,83,171);
+    width: 935px;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar input{
+    display: block;
+    width: 500px;
+    height: 15px;
+    font-size: 14px;
+    border-radius: 18px;
+    padding: 12px 25px; 
+    border: none;
+}
+.navbar input:focus{
+    outline: none;
+}
+.navbar button{
+    display: block;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
