@@ -24,3 +24,28 @@ personal practice lessons on html and css taken from youtube channel SuperSimple
 
 - Succcessfully Completed Lesson 8
     >Display BIock and InIine-BIock
+
+- Succcessfully Completed Lesson 9
+    >The < div >  Element
+
+- Succcessfully Completed Lesson 10
+    >Nested Layouts Technique
+
+- Succcessfully Completed Lesson 11
+    >CSS Grid
+
+- Succcessfully Completed Lesson 12
+    >Flexbox
+
+- Succcessfully Completed Lesson 13
+    >Nested Flexbox
+
+- Succcessfully Completed Lesson 14
+    >Position Fixed
+
+- Succcessfully Completed Lesson 15
+    >Position Absolute and Relative
+
+- Succcessfully Completed Lesson 16
+    >Finish the Project
+    
