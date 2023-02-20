@@ -1,0 +1,188 @@
+/* lesson four stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* 
+font-family: 'Montserrat', sans-serif; 
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+    background-color: rgb(15,15,15);
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(15,15,15);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(143, 143, 143);
+    background-color: brown;
+    border-radius: 8px;
+}
+.categories{
+    position: fixed;
+    top: 56px;
+    background-color: rgb(15,15,15);
+    display: flex;
+    align-items: end;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    column-gap: 8px;
+    z-index: 3;
+}
+.categories button{
+    display: block;
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    transition: background-color 0.2s, color .2s;
+    cursor: pointer;
+}
+.categories button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 17px;
+}
+.listing{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 269.34px;
+    width: 311.73px;
+    margin-bottom: 40px;
+    /* border: solid 1px red; */
+}
+.thumbnail{
+    height: calc(269.34px - 94px);
+    /* border: solid 1px blue; */
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.thumbnail img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.video-length{
+    background-color: rgba(0,0,0,0.7);
+    padding: 3px 3px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    bottom: -6px;
+    right: 4px;
+}
+.hovering-prompt{
+    background-color: rgb(0,0,0);
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+    z-index: 2;
+    position: absolute;
+    bottom: -6px;
+    right: 4px;
+    opacity: 0;
+}
+.thumbnail:hover .hovering-prompt{
+    opacity: 1;
+}
+.video-info{
+    display: flex;
+    column-gap: 8px;
+    padding-top: 12px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    position: relative;
+}
+.channel-logo{
+    cursor: pointer;
+}
+.channel-logo img{
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+.channel-stats{
+    /* border: solid 1px blue; */
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Roboto',sans-serif;
+    cursor: pointer;
+}
+.title{
+    display: block;
+    max-height: 40px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 6px;
+    /* Multi-line ellipsis code below*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.channel-name, .stats{
+    font-size: 12px;
+    color: rgb(143, 143, 143);
+    margin: 0 0 3px 0;
+}
+.channel-name{
+    width: max-content;
+}
+.channel-name:hover{
+    color:white;
+}
+.action-menu{
+    display: block;
+    height: 41px;
+    width: 41px;
+    background-color: transparent;
+    margin-left: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    position:absolute;
+    right: -15px;
+    top: 5px;
+    transition: ease-out .1s;
+    opacity: 0;
+}
+.action-menu:active{
+    background-color: rgb(39, 39, 39);
+}
+.action-menu svg{
+    fill: white;
+    width:24px;
+    display: block;
+    margin: 0 auto;
+}
+.listing:hover .action-menu{
+    opacity: 1;
+}

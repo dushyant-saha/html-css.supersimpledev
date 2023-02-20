@@ -1,0 +1,290 @@
+/* lesson four stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* 
+font-family: 'Montserrat', sans-serif; 
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+    margin: 0px;  
+    padding-top: 140px;
+    /* background-color: darkolivegreen; */
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 56px;
+    width: 100%;
+    background-color: rgb(15,15,15);    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 4;
+}
+.logo-and-icon{
+    display: flex;
+    column-gap: 11px;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.logo-and-icon img{
+    height: 20px;
+    width: 99px;
+    display: block;
+}
+.logo-and-icon sup{
+    color: rgb(170, 170, 170);
+    font-family: 'Roboto',sans-serif;
+    font-size: 10px;
+    position: absolute;
+    right: -10px;
+    top:4px;
+}
+.hamburger{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color:transparent;
+    /* background-color: rgb(15,15,15);     */
+    border-radius: 25px;
+    border: none;
+    box-sizing: border-box;
+    border: none
+}
+.hamburger svg{
+    fill: white;
+    width:24px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    cursor: pointer;
+}
+.hamburger:hover{
+    background-color: rgb(36, 36, 36);
+}
+.hamburger:active{
+    background-color: rgb(48, 48, 48);
+}
+
+.search-and-mic{
+    display: flex;
+    /* column-gap: 8px; */
+    justify-content: flex-end;
+    margin-left: 62px;
+    margin-right: 5px;
+}
+.searchbar{
+    display: flex;
+    height: 40px;
+    width: 640px;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 5px;
+    /* border:1px solid red */
+    /* width: max-content; */
+    /* border-radius: 25px; */
+}
+.searchbar input{
+    display: block;
+    height: 100%;
+    width: 540px;
+    font-size: 16px;
+    font-family: 'Roboto', Courier, monospace;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border: rgb(48,48,48) solid 1px;
+    color: rgb(255,255,255);
+    box-sizing: border-box;
+    padding-left: 15px;
+    background-color: transparent;
+}
+.searchbar input::placeholder{
+    color: rgb(136,136,136);
+    font-family: 'Roboto', sans-serif;
+    /* offset: -100px; */
+    line-height: 100px;
+}
+.searchbar input:focus{
+    outline: 1px solid rgb(28, 98, 185);
+    outline-offset: -1.5px;
+    width: 572px;
+    padding-left: 48px;
+}
+.search-icon{
+    display: block;
+    height: 100%;
+    width: 63px;
+    background-color: rgb(34,34,34);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: rgb(48,48,48) solid 1px;
+    border-left: none;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+.tooltip{
+    color: whitesmoke;    
+    background-color: rgba(78, 78, 78,.9);
+    position: absolute;
+    bottom: -55px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity .2s;
+}
+.search-icon:hover .tooltip{
+    opacity: 1;
+}
+.search-icon svg{
+    fill: white;
+    width: 24px;
+    display: block;
+    margin: 0 auto;
+}
+.search-icon-left svg{
+    fill: white;
+    width: 20px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left:22px;
+    top: 10px;
+}
+.searchbar .search-icon-left{
+    display: none;
+    /* opacity:0; */
+}
+.search-text:focus + .search-icon-left{
+    display: contents;
+}
+
+.mic{
+    display: block;
+    height: 41px;
+    width: 41px;
+    background-color: rgb(26, 26, 26);
+    margin-left: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.mic:hover .tooltip{
+    opacity: 1;
+}
+.mic svg{
+    fill: white;
+    width:24px;
+    display: block;
+    margin: 0 auto;
+}
+.mic:hover{
+    background-color: rgb(36, 36, 36);
+}
+.mic:active{
+    background-color: rgb(48, 48, 48);
+}
+
+.account-logos{
+    width: 225px;
+    height: 40px;
+    padding-right: 16px;
+    /* border: solid 1px red; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 21px;
+}
+.header-end{
+    display: flex;
+    column-gap: 5px;
+}
+.upload{
+    display: block;
+    height: 41px;
+    width: 41px;
+    background-color: rgb(26, 26, 26);
+    margin-left: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+
+}
+.upload svg{
+    fill: white;
+    width:24px;
+    display: block;
+    margin: 0 auto;
+}
+.upload:hover{
+    background-color: rgb(36, 36, 36);
+}
+.upload:hover .tooltip{
+    opacity: 1;
+}
+.upload:active{
+    background-color: rgb(48, 48, 48);
+}
+.notifications{
+    display: block;
+    height: 41px;
+    width: 41px;
+    background-color: rgb(26, 26, 26);
+    margin-left: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.notifications:hover .tooltip{
+    opacity: 1;
+}
+.notifications svg{
+    fill: white;
+    width:24px;
+    display: block;
+    margin: 0 auto;
+}
+.notifications:hover{
+    background-color: rgb(36, 36, 36);
+}
+.notifications:active{
+    background-color: rgb(48, 48, 48);
+}
+.account-logos .profile{
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    border-radius: 18px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+.account-logos img{
+    height: 100%;
+    width:100%;
+    /* border-radius: 18px; */
+    object-fit: cover;
+    object-position: center;
+}
+.account-logos .profile:active{
+    outline:solid 2px rgb(28, 98, 185);
+    outline-offset: -2px;
+}
