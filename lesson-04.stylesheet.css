@@ -24,7 +24,7 @@ body{
 }
 
 button:active{
-    opacity: .3;
+    opacity: .8;
     box-shadow: 5px 7px 10px rgba(0,0,0, 0);
 }
 
@@ -40,8 +40,11 @@ button:active{
     /* text-align: center; */
     transition: .18s;
 }
+
 .uber:hover{
-    opacity:0.96;
+    /* here the opacity of .uber:hover is clashing with opacity of button:active hence line 47 if uncommented,
+    then button:active will not work for the uber button */
+    /* opacity:0.96; */
     box-shadow: 0px 7px 8px rgba(0,0,0, 0.2);
 }
 /* .uber:active{
